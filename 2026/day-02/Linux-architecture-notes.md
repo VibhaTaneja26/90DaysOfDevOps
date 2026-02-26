@@ -33,12 +33,12 @@ systemctl status nginx (to check status)
 # Different process states
 Command to see process states  **"ps aux"**
 
-Running state  'R'
+#Running state  'R'
 Meaning process is running
 
-'T'  Process is paused or stopped
+#'T'  Process is paused or stopped
 Kill stop "PID"  like kill stop 890
 kill -cont "PID"
-'D'  Process is waiting for disk or hardware
-'S' sleeping
-'Z' Zombie - dead process not cleaned up.
+#'D'  Process is waiting for disk or hardware
+#'S' sleeping
+#'Z' Zombie - dead process not cleaned up.
