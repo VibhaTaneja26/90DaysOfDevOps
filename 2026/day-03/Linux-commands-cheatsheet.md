@@ -34,11 +34,22 @@ sudo passwd -u vibs
 
 sudo groupadd devteam
 
+
 # modify user
 
 sudo usermod -aG docker vibs    -- this allows user to run docker because user has been added to group docker
 
 sudo usermod -aG sudo vibs  --- user added to sudo group and user has admin access now
+
+newgrp <group name>   -- To refresh a group
+
+# Change file owner
+
+sudo chown <user> <file>
+
+# change owner and group
+
+sudo chown user:group <File name>
 
 # Check current user
 
@@ -56,8 +67,17 @@ Su devuser
 # important files
 
 /etc/passwd    -- keeps user information
+
 /etc/shadow    -- keeps encypted password
+
 /etc/group     -- keeps group information
+
+
+# File management
+
+
+
+
 
 
 
